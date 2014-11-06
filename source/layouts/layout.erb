@@ -7,8 +7,15 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "all" %>
   </head>
-  <body class="row <%= page_classes %>">
-    <%= yield %>
+  <body class="<%= page_classes %>">
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">dgfsalud</li>
+      </ul>
+    </nav>
+    <div class="row">
+      <%= yield %>
+    </div>
     <%= javascript_include_tag  "all" %>
   </body>
 </html>
