@@ -5,3 +5,14 @@
 @import "foundation/scss/foundation/components/top-bar";
 @import "foundation/scss/foundation/components/visibility";
 @import "foundation/scss/foundation/components/pricing-tables";
+
+.map {
+  padding: 0;
+  border: 1px solid;
+  margin-bottom: 1rem;
+}
+
+.expanded-iframe {
+  display: block;
+  width: 100%;
+}
