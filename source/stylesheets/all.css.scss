@@ -9,10 +9,17 @@
 .map {
   padding: 0;
   border: 1px solid;
-  margin-bottom: 1rem;
+  height: 400px;
 }
 
 .expanded-iframe {
   display: block;
   width: 100%;
+}
+
+.highlighted-background {
+  background-color: #f4f4f4;
+  border: 1px solid #c6c6c6;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
 }
