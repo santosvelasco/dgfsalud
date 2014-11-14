@@ -13,7 +13,13 @@
 .map {
   padding: 0;
   border: 1px solid #c6c6c6;
-  height: 400px;
+  height: 200px;
+}
+
+@media #{$large-up} {
+  .map {
+    height: 400px;
+  }
 }
 
 .expanded-iframe {
