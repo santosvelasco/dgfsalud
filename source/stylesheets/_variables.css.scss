@@ -1,4 +1,13 @@
+$greenish: #d3e2b6;
+$blueish: #68b3af;
+$blueish-hover: #87BDB1;
+
 $body-font-family: "Lato", sans-serif !default;
 $base-font-size: 18px;
 
 $topbar-height: 3rem !default;
+$topbar-bg-color: $blueish;
+$topbar-link-bg-hover: $blueish-hover;
+
+$price-title-bg: $greenish;
+$price-title-color: #444;
