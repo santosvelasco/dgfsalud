@@ -1,0 +1,17 @@
+{
+  "name": "dgfsalud",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santosvelasco/dgfsalud.git"
+  },
+  "author": "Antonio Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santosvelasco/dgfsalud/issues"
+  },
+  "homepage": "https://github.com/santosvelasco/dgfsalud#readme",
+  "dependencies": {
+    "foundation-sites": "^6.0.3"
+  }
+}

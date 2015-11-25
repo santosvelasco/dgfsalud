@@ -7,4 +7,4 @@ configure :build do
    activate :minify_javascript
 end
 
-sprockets.append_path(File.join(root, 'bower_components'))
+sprockets.append_path(File.join(root, 'node_modules'))
