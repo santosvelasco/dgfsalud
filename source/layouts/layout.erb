@@ -10,24 +10,23 @@
     <%= stylesheet_link_tag "all" %>
   </head>
   <body class="<%= page_classes %>">
-    <div class="sticky contain-to-grid">
-      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="#">dgfsalud</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="right">
+    <nav>
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="menu">
+            <li class="name"> <a href="#">dgfsalud</a></li>
+          </ul>
+        </div>
+        <section class="top-bar-right">
+          <ul class="right menu">
             <li><a href="#welcome">Inicio</a></li>
             <li><a href="#therapies">Terapias</a></li>
             <li><a href="#pricing">Tarifas</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
         </section>
-      </nav>
-    </div>
+      </div>
+    </nav>
     <%= yield %>
     <%= javascript_include_tag  "all" %>
   </body>
