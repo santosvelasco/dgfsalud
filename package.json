@@ -12,6 +12,6 @@
   },
   "homepage": "https://github.com/santosvelasco/dgfsalud#readme",
   "dependencies": {
-    "foundation-sites": "^6.0.3"
+    "foundation-sites": "^6.0.5"
   }
 }
