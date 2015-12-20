@@ -36,3 +36,7 @@
   color: #414141;
   font-size: rem-calc(60);
 }
+
+.top-bar {
+  border-bottom: 5px solid darken($blueish, 15%);
+}
