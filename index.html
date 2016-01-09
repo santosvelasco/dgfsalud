@@ -5,31 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <title>dgfsalud - Daniel García Fuentes - Fisioterapia en Huelva</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald|Lato:400,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/stylesheets/all.css" rel="stylesheet" />
+    <link href="stylesheets/all.css" rel="stylesheet" />
   </head>
   <body class="index">
-    <div class="sticky contain-to-grid">
-      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="#">dgfsalud</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="right">
+    <nav class="top-bar">
+      <div class="row">
+        <div class="top-bar-left">
+          <ul class="menu">
+            <li class="name"> <a href="#">dgfsalud</a></li>
+          </ul>
+        </div>
+        <section class="top-bar-right">
+          <ul class="right menu">
             <li><a href="#welcome">Inicio</a></li>
             <li><a href="#therapies">Terapias</a></li>
             <li><a href="#pricing">Tarifas</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
         </section>
-      </nav>
-    </div>
+      </div>
+    </nav>
     <div class="row">
-  <h1 class="section-header" id="welcome">Bienvenido</h1><!--   TODO: Más grande -->
+  <h1 class="section-header" id="welcome">Bienvenido</h1>
   <p>Soy Daniel García Fuentes, diplomado en Fisioterapia por la <a
   href="http://www.fefp.us.es/">Universidad de Sevilla</a> desde 2004
   y experto universitario en Osteopatía. Me dedico a tratar cualquier
@@ -49,8 +48,8 @@
     <li>Técnicas de osteopatía</li>
   </ul>
 
-  <h1 class="section-header" id="therapies">Terapias</h1><!--   TODO: Más grande -->
-  <dl>
+  <h1 class="section-header" id="therapies">Terapias</h1>
+  <dl class="therapies">
     <dt>Fisioterapia deportiva</dt>
     <dd>Valoración y tratamiento de lesiones deportivas, seguimiento de las mismas, orientación profesional terapéutica para la práctica deportiva, masaje de descarga pre y postcompetición.</dd>
     <dt>Osteopatía</dt>
@@ -69,51 +68,49 @@
     <dd>Ejercicios para el tratamiento de la lesión, ya sea para ayudar a recuperarla como a prevenir futuras recaídas por descompensaciones musculares.</dd>
   </dl>
 
-  <h1 class="section-header" id="pricing">Tarifas</h1><!-- TODO: Más grande -->
-  <ul class="small-block-grid-3">
-    <li>
-      <ul class="pricing-table">
-        <li class="title">Media sesión</li>
-        <li class="price">12 euros</li>
-        <li class="description">Indicada para lesiones leves, lesiones en fase final de recuperación o lesiones muy focalizadas</li>
-      </ul>
-    </li>
-    <li>
-      <ul class="pricing-table">
-        <li class="title">Sesión completa</li>
-        <li class="price">20 euros</li>
-        <li class="description">Sesión estándar</li>
-      </ul>
-    </li>
-    <li>
-      <ul class="pricing-table">
-        <li class="title">Sesión a domicilio</li>
-        <li class="price">30 euros</li>
-        <li class="description">Sesión de 45 minutos en el domicilio del paciente</li>
-      </ul>
-    </li>
-  </ul>
+  <h1 class="section-header" id="pricing">Tarifas</h1>
+  <table class="pricing-table columns small-12 large-12">
+    <thead>
+      <tr>
+        <th>Media sesión</th>
+        <th>Sesión completa</th>
+        <th>Sesión a domicilio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>12 euros</td>
+        <td>20 euros</td>
+        <td>30 euros</td>
+      </tr>
+      <tr>
+        <td>Indicada para lesiones leves, focalizadas o en fase final de recuperación</td>
+        <td>Sesión estándar</td>
+        <td>Sesión de 45 minutos en el domicilio del paciente</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <div class="row">
-  <h1 class="section-header" id="contact">Contacto</h1><!--   TODO: Más grande -->
+  <h1 class="section-header" id="contact">Contacto</h1>
   <p class="columns small-12 large-9">La consulta se encuentra en la zona de Las Tres Ventanas, junto al asilo de ancianos del Huerto Paco. Por favor, solicite cita previa con una llamada telefónica, mensaje de texto, mensaje de WhatsApp o correo electrónico.</p>
   <div class="columns small-12 large-3">
-    <ul class="vcard right"> <!-- TODO:Align vcard -->
-      <li class="fn">Daniel García Fuentes</li>
-      <li class="email"><i class="fa fa-envelope-o"></i> <a href="mailto:dgfsalud@gmail.com">dgfsalud@gmail.com</a></li>
-      <li class="tel"><i class="fa fa-mobile-phone"></i> 635 50 55 49</li>
+    <ul class="vcard right">
+      <li class="fn"><i class="fa-fw fa fa-user"></i>Daniel García Fuentes</li>
+      <li class="email"><i class="fa-fw fa fa-envelope-o"></i><a href="mailto:dgfsalud@gmail.com">dgfsalud@gmail.com</a></li>
+      <li class="tel"><i class="fa-fw fa fa-mobile-phone"></i>635 50 55 49</li>
     </ul>
   </div>
 </div>
 <div class="highlighted-background">
   <div class="row">
     <div class="columns small-12 large-12">
-      <iframe class="map expanded-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.131803809856!2d-6.940100600000028!3d37.26830150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfe0e4be7c89%3A0x862bcf8de27d20e!2sCalle+Virgen+del+Mayor+Dolor%2C+17%2C+21005+Huelva!5e0!3m2!1sen!2ses!4v1415702456223" frameborder="0"></iframe>
+      <iframe class="map expanded-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1587.5631843037058!2d-6.941893323858281!3d37.26843039493897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfe0e4cfc1d1%3A0xd44bdd41001ee580!2sCalle+Virgen+del+Mayor+Dolor%2C+21005+Huelva%2C+Spain!5e0!3m2!1sen!2sus!4v1450095540847" frameborder="0"></iframe>
     </div>
   </div>
 </div>
 
-    <script src="/javascripts/all.js"></script>
+    <script src="javascripts/all.js"></script>
   </body>
 </html>
